@@ -26,6 +26,9 @@ class ViewController: UIViewController {
         self.navigationController?.popToRootViewController(animated: true)
     }
     
+    @IBAction func toPreviousScene(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
